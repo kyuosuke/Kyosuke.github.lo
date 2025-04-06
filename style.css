@@ -1,0 +1,77 @@
+h1,h2,h3,h4{
+margin:0;
+}
+
+
+ul{
+    list-style:none ;
+    margin:0;
+    padding:0;
+    display: flex;
+}
+button{
+    border:0;
+    background-color:#fff;
+    padding:0;
+
+
+    
+}
+.container{
+    max-width:1000px;
+    margin:0 auto;
+}
+
+/* ここからがメニュー */
+
+
+.main-menu {
+    display:flex;
+}
+.main-menu li{
+    margin-left: 30px;
+    font-size:14px;
+    font-weight: 600;
+
+}
+.header-nav{
+    display:flex;
+     justify-content:space-between ;
+     align-items:center;
+     
+}
+a.header-nav h1{
+    font-size:32px;
+
+}
+.header-taglist{
+    display: flex;
+    margin:30px 0;
+}
+.header-taglist li{
+    padding:12px 23px;
+    background-color:#1AB7E8;
+    color:white;
+    margin-right:10px;
+}
+.header-left button{
+   background-color:#333 ;
+   color: #fff; 
+   padding:14px 80px;
+   border-radius:50px ;
+}
+img{
+    width:400px;
+}
+.header-hiro{
+    display:flex
+}
+.header-right img{
+     width: 100%;
+}
+.header-left{
+  width:50%;
+}
+.header-right{
+    width:50%;
+}
